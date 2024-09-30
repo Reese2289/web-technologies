@@ -1,0 +1,32 @@
+/* --------- CSS-demo ---------- */
+
+/* ----- Color Scheme ---- 
+Main Color - #DB4756
+*/
+
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body{
+  font-family: "Nunito Sans", sans-serif;
+  background-color:#DB4756;
+}
+
+main{}
+
+header.primary{
+  background-color:lightblue;
+  color:#000000;
+  text-align: center;
+  text-shadow:2px 2px #ffffff;
+}
+
