@@ -18,15 +18,86 @@ html {
 
 body{
   font-family: "Nunito Sans", sans-serif;
-  background-color:#DB4756;
+  background-color:#ffffff;
+  margin:0;
 }
 
 main{}
 
 header.primary{
-  background-color:lightblue;
-  color:#000000;
+  background-color:rgb(140, 210, 233);
+  text-shadow:2px 2px #000000;
   text-align: center;
-  text-shadow:2px 2px #ffffff;
+  /*long-form*/
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  /*single  value short hand*/
+  padding: 40px;
+  /*Top, Right, Bottom, Left*/
+  padding: 20px 40px 20px 40px;
+  /*Two Value Top/Bottom / L/R*/
+  padding: 20px 40px;
+}
+
+header.primary h1{
+  font-size:2.4rem;
+  margin: 20px 0;
+}
+
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h2{
+  color:#ffffff;
+  font-size:1.3rem;
+  margin:0;
+}
+
+header.primary nav{}
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:10px 0;
+}
+header.primary nav ul li{
+  list-style-type:none;
+}
+header.primary nav ul li a{
+  color:#ffffff;
+  text-decoration:none;
+  border:1px solid #8b8b8b;
+  padding:7.5px 10px;
+  background-color: rgba(37, 37, 37, 0.4);
+  border-radius:20px;
+  transition:.4s;
+}
+
+header.primary nav ul li a:hover{
+  background-color: rgba(37, 37, 37, 0.8);
+}
+
+
+
+
+/* --------- Media Queries --------- */
+
+@media screen and (max-width: 560px){
+  header.primary nav ul{
+    flex-direction:column;
+    gap:10px;
+    max-width:200px;
+    margin:0px auto;
+  }
+
+  header.primary nav a{
+    display:block;
+  }  
+
+
 }
 
