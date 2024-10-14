@@ -1,7 +1,7 @@
 /* --------- CSS-demo ---------- */
 
 /* ----- Color Scheme ---- 
-Main Color - #DB4756
+Main Color - rgb(140, 210, 233)
 */
 
 
@@ -28,6 +28,32 @@ img{
   width: 80vw;
   max-width:960px;
   margin:40px auto;
+}
+
+.img-right{
+  float:right;
+  border:1px solid #cccccc;
+  padding:5px;
+  margin:10px 0 10px 20px;
+}
+
+.img-left{
+  float:left;
+  border:1px solid #cccccc;
+  padding:5px;
+  margin:10px 20px 10px 0px;
+}
+
+.img-center{
+  display:block;
+  margin: 20px auto;
+  border:1px solid #cccccc;
+  padding:5px;
+  margin:40px;
+}
+
+.tr-right{
+  float:right;
 }
 
 /*-------- Global style -------*/
@@ -126,6 +152,9 @@ header.primary nav ul li a:hover{
   justify-content:space-around;
   flex-direction:row;
   gap:2rem;
+  border-top:1px solid #cccccc;
+  border-bottom:1px solid #cccccc;
+  padding:40px 0 40px 0;
 }
 
 #blog article.post{
@@ -160,8 +189,79 @@ header.primary nav ul li a:hover{
   color:rgb(140, 210, 233);
 }
 
+#practice h2{
+  color:rgb(140, 210, 233);
+  border-bottom:1px dotted #cccccc;
+}
+
+#practice a{
+  color:#8BB4E8;
+}
+
+#practice a:hover{
+  text-decoration:none;
+}
+
+#practice h3{
+  border-left: 5px solid rgb(140, 210, 233);
+  padding:5px 0 5px 10px;
+}
+
+table{
+  width:100%;
+  border: 1px solid #c0c0c0;
+  border-collapse:collapse;
+}
+caption{
+  font-weight: bold;
+  text-decoration:underline;
+  margin: 10px;
+  font-size:1.5rem;
+}
+thead{}
+tr:nth-child(even){
+  background-color: rgba(0,0,0,0.1);
+}
+
+td:nth-child(n+2){
+  text-align:right;
+}
+
+tr:hover{
+  background-color: rgba(0,0,0,0.4);
+}
+
+th{
+  background-color:rgb(140, 210, 233);
+  padding:6px;
+}
+td{
+  border: 1px solid #c0c0c0;
+  padding:5px;
+}
+
+#practice ol{
+  list-style-type:lower-roman;
+}
+
+#practice ul li ul{
+  list-style-type:square;
+}
+
+#practice dl dt{
+  font-weight:bold;
+}
+
+dl dd{
+  margin:0;
+}
+
+dd + dt{
+  margin-top:20px;
+}
+
 aside[role="complementary"]{
-  background-color: #172635;
+  background-color: #8BB4E8;
   color:#ffffff;
   padding:40px 0;  
   }
@@ -188,7 +288,9 @@ aside[role="complementary"]{
   }
 
 #colophon{
-  background-color: #3b638b;
+  background-color:rgb(140, 210, 233);
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  text-shadow:2px 2px #000000;
   padding:1px;
   color:#ffffff;
   font-size:1.2rem;
