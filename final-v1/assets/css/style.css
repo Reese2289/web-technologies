@@ -1,0 +1,53 @@
+body{
+    display:grid;
+    grid-template-columns: 15% 85%;
+    margin:0;
+  }
+  
+  main{
+    padding:30px;
+  }
+  header.primary{
+      padding: 0px 20px 0px 20px;
+      box-sizing:border-box;
+      background-color: black;
+  }
+  
+  header.primary h1 a{
+      color:white;
+      font-size:1.5rem;
+  }
+  
+  header.primary nav ul {
+    list-style: none;
+    padding-left:0px;
+  }
+
+  header.primary nav ul li{
+    width:100%;
+    text-align:center;
+  }
+  
+  header.primary nav ul li a{
+    display:block;
+    color:#ffffff;
+    text-decoration:none;
+    transition:.4s;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  
+  header.primary nav ul li a:hover{
+    background-color: rgb(221, 221, 221);
+    color:black;
+  }
+  
+  section.container{
+  }
+  
+  aside{
+  }
+  
+  #colophon{
+      color:black;
+  }
