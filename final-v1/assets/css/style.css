@@ -2,17 +2,25 @@ body{
     display:grid;
     grid-template-columns: 15% 85%;
     margin:0;
+    background-image: url('/final-v1/assets/img/journpage.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
   }
-  
+    
   main{
     padding:30px;
   }
   header.primary{
       padding: 0px 20px 0px 20px;
       box-sizing:border-box;
+      background-image: url('/final-v1/assets/img/leather.jpg');
       background-color: black;
   }
-  
+
   header.primary h1 a{
       color:white;
       font-size:1.5rem;
@@ -43,6 +51,12 @@ body{
   }
   
   section.container{
+    font-size:1.3rem;
+    text-align: center;
+  }
+
+  section.container h2{
+    text-decoration: underline;
   }
   
   aside{
