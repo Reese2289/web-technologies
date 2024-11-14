@@ -14,6 +14,7 @@ body{
   main{
     padding:30px;
   }
+
   header.primary{
       padding: 0px 20px 0px 20px;
       box-sizing:border-box;
@@ -52,11 +53,27 @@ body{
   
   section.container{
     font-size:1.3rem;
-    text-align: center;
+    text-align:center;
   }
 
   section.container h2{
+    margin:0;
+    padding-top:75px;
     text-decoration: underline;
+    background-image: url('/final-v1/assets/img/tornpaper.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height:120px;
+
+  }
+
+  section.container p{
+    margin:0;
+  }
+
+  img{
+    border:solid black 5px;
+    margin-top:10px;
   }
   
   aside{
