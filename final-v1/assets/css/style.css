@@ -22,19 +22,36 @@ body{
       background-color: black;
   }
 
+  #ribbon{
+    background-image: url('/final-v1/assets/img/Green-Ribbon.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:200px 500px;
+    height:500px;
+    margin-top:-25px;
+  }
+
+  header.primary h1{
+    margin-bottom:0;
+    text-align:center;
+    padding-top:60px;
+  }
+
   header.primary h1 a{
       color:white;
       font-size:1.5rem;
   }
   
   header.primary nav ul {
+    padding-top:20px;
     list-style: none;
     padding-left:0px;
   }
 
   header.primary nav ul li{
-    width:100%;
     text-align:center;
+    padding-left:14px;
+    padding-right:14px;
   }
   
   header.primary nav ul li a{
@@ -44,11 +61,11 @@ body{
     transition:.4s;
     padding-top:10px;
     padding-bottom:10px;
+    width:100%;
   }
   
   header.primary nav ul li a:hover{
-    background-color: rgb(221, 221, 221);
-    color:black;
+    background-color:rgb(1, 94, 1);
   }
   
   section.container{
@@ -64,7 +81,6 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height:120px;
-
   }
 
   section.container p{
