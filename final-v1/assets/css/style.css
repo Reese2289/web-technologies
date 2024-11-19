@@ -2,7 +2,7 @@ body{
     display:grid;
     grid-template-columns: 15% 85%;
     margin:0;
-    background-image: url(/final-v1/assets/img/journpage.JPG);
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/journpage.JPG?raw=true);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
@@ -17,12 +17,12 @@ body{
   header.primary{
       padding: 0px 20px 0px 20px;
       box-sizing:border-box;
-      background-image: url('../final-v1/assets/img/leather.jpg');
+      background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/leather.jpg?raw=true);
       background-color: black;
   }
 
   #ribbon{
-    background-image: url('../final-v1/assets/img/Green-Ribbon.png');
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/Green-Ribbon.png?raw=true);
     background-repeat: no-repeat;
     background-position:center;
     background-size:200px 500px;
@@ -78,7 +78,7 @@ body{
     margin: 0;
     padding: 35px 60px 35px 60px; /*Top, right, bottom, left*/
     text-decoration: underline;
-    background-image: url('../final-v1/assets/img/tornpaper.png');
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/tornpaper.png?raw=true);
     background-size: 100% 100%; /* Adjust width dynamically */
     background-repeat: no-repeat;
     background-position: center;
