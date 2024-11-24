@@ -93,6 +93,10 @@ body{
     border:solid black 5px;
     margin-top:10px;
   }
+
+  video{
+    border:solid black 5px;
+  }
   
   aside{
   }

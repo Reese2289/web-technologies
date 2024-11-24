@@ -1,0 +1,106 @@
+body{
+    display:grid;
+    grid-template-columns: 15% 85%;
+    margin:0;
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/journpage.JPG?raw=true);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;
+    font-family: "Charm", cursive; 
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  main{
+    padding:30px;
+  }
+  header.primary{
+      padding: 0px 20px 0px 20px;
+      box-sizing:border-box;
+      background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/leather.jpg?raw=true);
+      background-color: black;
+  }
+
+  #ribbon{
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/Green-Ribbon.png?raw=true);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:200px 500px;
+    height:500px;
+    margin-top:-25px;
+    padding-left:20px;
+    padding-right:20px;
+  }
+
+  header.primary h1{
+    margin-bottom:0;
+    text-align:center;
+    padding-top:60px;
+  }
+
+  header.primary h1 a{
+      color:white;
+      font-size:1.5rem;
+  }
+  
+  header.primary nav ul {
+    padding-top:20px;
+    list-style: none;
+    padding-left:0px;
+  }
+
+  header.primary nav ul li{
+    text-align:center;
+    padding-left:14px;
+    padding-right:14px;
+  }
+  
+  header.primary nav ul li a{
+    display:block;
+    color:#ffffff;
+    text-decoration:none;
+    transition:.4s;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:100%;
+  }
+  
+  header.primary nav ul li a:hover{
+    background-color:rgb(1, 94, 1);
+  }
+  
+  section.container{
+    font-size:1.3rem;
+    text-align:center;
+  }
+
+  section.container h2{
+    margin: 0;
+    padding: 35px 60px 35px 60px; /*Top, right, bottom, left*/
+    text-decoration: underline;
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/tornpaper.png?raw=true);
+    background-size: 100% 100%; /* Adjust width dynamically */
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+  }
+
+  section.container p{
+    margin:0;
+  }
+
+  img{
+    border:solid black 5px;
+    margin-top:10px;
+  }
+
+  video{
+    border:solid black 5px;
+  }
+  
+  aside{
+  }
+  
+  #colophon{
+      color:black;
+  }
