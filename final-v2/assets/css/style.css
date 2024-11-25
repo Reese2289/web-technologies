@@ -2,7 +2,7 @@ body{
     display:grid;
     grid-template-columns: 15% 85%;
     margin:0;
-    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/journpage.JPG?raw=true);
+    background-image: url(/final-v2/assets/img/page.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
@@ -94,8 +94,35 @@ body{
     margin-top:10px;
   }
 
-  video{
+  .container figure{
+    position:relative;
+    height:300px;
+  }
+
+  #clip1{
     border:solid black 5px;
+    position:absolute;
+    top:20px;
+    right:180px;
+  }
+
+  #clip2{
+    border:solid black 5px;
+    position:absolute;
+    top:20px;
+    left:180px;
+  }
+
+  #clip1cap{
+    position:absolute;
+    top:230px;
+    right:180px;
+  }
+
+  #clip2cap{
+    position:absolute;
+    top:230px;
+    left:180px;
   }
   
   aside{
