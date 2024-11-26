@@ -2,7 +2,7 @@ body{
     display:grid;
     grid-template-columns: 15% 85%;
     margin:0;
-    background-image: url(/final-v2/assets/img/page.jpg);
+    background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v2/assets/img/page.jpg?raw=true);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: right;
