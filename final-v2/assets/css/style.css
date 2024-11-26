@@ -1,6 +1,7 @@
 body{
     display:grid;
     grid-template-columns: 15% 85%;
+    height:100vh;
     margin:0;
     background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v2/assets/img/page.jpg?raw=true);
     background-repeat: no-repeat;
@@ -12,13 +13,19 @@ body{
   }
     
   main{
+    position:relative;
     padding:30px;
+    border-left: dotted black;
   }
+
   header.primary{
-      padding: 0px 20px 0px 20px;
+      padding: 0px 20px;
       box-sizing:border-box;
       background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/leather.jpg?raw=true);
       background-color: black;
+      height:100%;
+      display:flex;
+      flex-direction: column;
   }
 
   #ribbon{
@@ -39,8 +46,8 @@ body{
   }
 
   header.primary h1 a{
-      color:white;
-      font-size:1.5rem;
+    color:white;
+    font-size:1.5rem;
   }
   
   header.primary nav ul {
@@ -79,7 +86,7 @@ body{
     padding: 35px 60px 35px 60px; /*Top, right, bottom, left*/
     text-decoration: underline;
     background-image: url(https://github.com/Reese2289/web-technologies/blob/main/final-v1/assets/img/tornpaper.png?raw=true);
-    background-size: 100% 100%; /* Adjust width dynamically */
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -125,9 +132,8 @@ body{
     left:180px;
   }
   
-  aside{
-  }
-  
   #colophon{
       color:black;
+      position:absolute;
+      bottom:0;
   }
