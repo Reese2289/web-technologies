@@ -96,9 +96,20 @@ body{
     margin:0;
   }
 
-  img{
-    border:solid black 5px;
-    margin-top:10px;
+  .fade img {
+    border: solid black 3px;
+    width: 500px;
+    height: auto;
+    display: block;
+  }
+
+  .fade{
+    margin:40px auto;
+    width:510px;
+    /* Set Max Content Width */
+    max-width:700px;
+    position:relative;
+    height:300px;
   }
 
   .container figure{
@@ -137,3 +148,23 @@ body{
       position:absolute;
       bottom:0;
   }
+
+.slick-autoplay-toggle-button,
+.slick-prev .slick-prev-icon, .slick-next .slick-next-icon,
+.slick-dots li button .slick-dot-icon,
+.slick-dots li.slick-active button .slick-dot-icon {
+  color: white;
+}
+
+/* Customize Previous/Next/Dots/Autoplay - Active State */
+
+.slick-next:focus .slick-next-icon,
+.slick-next:focus .slick-prev-icon,
+.slick-prev:focus .slick-next-icon,
+.slick-prev:focus .slick-prev-icon,
+.slick-dots li button:focus .slick-dot-icon:before,
+.slick-dots li.slick-active button:focus .slick-dot-icon,
+.slick-autoplay-toggle-button:focus 
+{
+    color:black;
+}
